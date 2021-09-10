@@ -102,14 +102,14 @@ async def get_matrix(url):
         #     j += 1
         # cou += 1
 
-SOURCE_URL = 'https://raw.githubusercontent.com/avito-tech/python-trainee-assignment/main/matrix.txt'
-TRAVERSAL = [
-    10, 50, 90, 130,
-    140, 150, 160, 120,
-    80, 40, 30, 20,
-    60, 100, 110, 70,
-]
+# SOURCE_URL = 'https://raw.githubusercontent.com/avito-tech/python-trainee-assignment/main/matrix.txt'
+# TRAVERSAL = [
+#     10, 50, 90, 130,
+#     140, 150, 160, 120,
+#     80, 40, 30, 20,
+#     60, 100, 110, 70,
+# ]
 
-def test_get_matrix():
-    assert asyncio.run(get_matrix(SOURCE_URL)) == TRAVERSAL
-test_get_matrix()
+# def test_get_matrix():
+#     assert asyncio.run(get_matrix(SOURCE_URL)) == TRAVERSAL
+# test_get_matrix()
